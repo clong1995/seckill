@@ -40,7 +40,7 @@ VALUES
   ('秒杀西瓜', 400, '2018-4-1 03:20:00', '2018-4-2 03:20:00');
 
 -- 成功明细表
-CREATE TABLE success_seckill (
+CREATE TABLE success_killed (
   `seckill_id`  BIGINT    NOT NULL
   COMMENT '商品库存id',
   `user_phone`  BIGINT    NOT NULL
